@@ -9,5 +9,4 @@ ggplot(data = iris, aes(x = Sepal.Length, y = Sepal.Width, color = Species)) +
   geom_point() +
   labs(title = "Sepal Length vs Sepal Width in Iris Dataset",
        x = "Sepal Length (cm)",
-       y = "Sepal Width (cm)") +
-  theme_minimal()
+       y = "Sepal Width (cm)")
