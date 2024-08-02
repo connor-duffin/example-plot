@@ -4,6 +4,8 @@ library(ggplot2)
 data(iris)
 head(iris)
 
+print("hello world")
+
 # Create a scatter plot using the iris dataset
 ggplot(data = iris, aes(x = Sepal.Length, y = Sepal.Width, color = Species)) +
   geom_point() +
